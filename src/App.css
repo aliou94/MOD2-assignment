@@ -1,11 +1,36 @@
 .App {
   text-align: center;
+  height: 100vh;
+  background: #ccc8c8;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 50px;
+  margin: 20px;
+}
+
+.App div {
+  border: solid 3px #282c34;
+}
+
+.sidebar {
+  grid-column: 1 / 2;
+  grid-row: 1/ 4;
+}
+
+.main-content {
+  grid-column: 2 / 5;
+  grid-row: 2 / 4;
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
+
+/* .grid {
+  background: #ccc8c8;
+} */
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
