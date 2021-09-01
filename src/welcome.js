@@ -1,4 +1,6 @@
 import React from 'react'
+
+
 export function Welcome1(props) {
     return <p>Hello, {props.fname} </p>;
 }
