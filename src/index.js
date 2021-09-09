@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
- import App from './App';
+// import './index.css';
+import App from './App';
 import FormControlClass from './components/FormControlClass'
 import Nav from './components/NavRouter';
 import StudentScore from './components/student';
