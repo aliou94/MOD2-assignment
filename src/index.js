@@ -1,12 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+ import App from './App';
+import FormControlClass from './components/FormControlClass'
+import Nav from './components/NavRouter';
+import StudentScore from './components/student';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <StudentScore/>
   </React.StrictMode>,
   document.getElementById('root')
 );

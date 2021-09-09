@@ -1,7 +1,7 @@
-
+import { Sidebar, Smallbox, Maincontent} from "./welcome";
 import "./App.css";
 
-import { Sidebar, Smallbox, Maincontent} from "./welcome";
+
 
 
 function App() {
